@@ -19,7 +19,11 @@ router.get('/contact',function(req,res){
 });
 
 router.get('/nodeJSprojects',function(req,res){
-  res.render('nodeJSprojects')
+  res.render('nodeJSprojects');
+});
+
+router.get('/movie',function(req,res){
+  res.render('movie');
 });
 
 module.exports = router;
