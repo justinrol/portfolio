@@ -1,0 +1,56 @@
+body{
+  text-align: center;
+}
+
+ul.main {
+    display: inline-block;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: content-box;
+    margin-left: 50px;
+    padding: 3px 3px 0px 0px;
+    border-radius: 10px;
+}
+
+button {
+    display: inline;
+    font-family: Consolas monaco monospace;
+    background: inherit;
+    border: none;
+    font-size: 20px;
+}
+
+hr {
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: black;
+}
+
+button.home {
+    margin-right: 15px;
+}
+
+img{
+    display: block;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+h.intro {
+  font-size: 30px;
+}
+
+p.intro {
+  margin: 0 auto;
+  word-wrap: break-word;
+  width: 800px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}

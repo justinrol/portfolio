@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    ul.main
+        a(href='http://localhost:3000/')
+          button.main Home
+        a(href='http://localhost:3000/about')
+          button.main About
+        a(href='http://localhost:3000/projects')  
+          button.main Projects
+        a(href='http://localhost:3000/contact')
+          button.main(type="submit", onclick="contactGET()") Contact
+    hr
+    block content
+    script(src="/javascripts/browsing.js")
