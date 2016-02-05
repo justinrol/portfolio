@@ -18,4 +18,8 @@ router.get('/contact',function(req,res){
   res.render('contact');
 });
 
+router.get('/nodeJSprojects',function(req,res){
+  res.render('nodeJSprojects')
+});
+
 module.exports = router;

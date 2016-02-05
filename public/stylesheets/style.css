@@ -6,38 +6,6 @@ body{
   background-color: #ecf0f1;
 }
 
-ul.main {
-    display: inline-block;
-    border-width: 4px;
-    border-color: black;
-    border-style: solid;
-    box-sizing: content-box;
-    padding: 3px 3px 0px 0px;
-    border-radius: 10px;
-}
-
-button {
-    display: inline;
-   
-    background: inherit;
-    border: none;
-    font-size: 20px;
-}
-
-hr {
-    border-radius: 20px;
-    border-width: 3px;
-    border-color: black;
-}
-
-hr.project{
-  margin:30px 30px 0px 0px;
-}
-
-button.home {
-    margin-right: 15px;
-}
-
 img{
     display: block;
     width: 500px;
@@ -47,59 +15,17 @@ img{
     margin: 0 auto;
 }
 
-h.intro {
-  font-size: 30px;
-}
-
-p.intro {
-  margin: 0 auto;
-  word-wrap: break-word;
-  width: 800px;
-  font-size: 20px;
-}
-
-a {
-  text-decoration: none;
-}
-
-p.projectBody {
-  margin: 0 auto;
-  word-wrap: break-word;
-  width: 800px;
-  font-size: 20px;
-}
-
-h.projectIntro {
-  font-size: 30px;
-}
-
-h.project {
-  font-size: 25px;
-  text-decoration: underline;
-}
-
-p.projectList {
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
-  border-radius: 10px;
-  padding: 5px 5px 10px 10px;
-  display: inline-block;
-}
-
-h.email {
-  font-size: 30px;
-  text-decoration: underline;
-}
-
-p.email {
-  font-size: 30px;
-}
-
 img.facebook {
   margin-top: 5px;
   padding: 3px;
   border: 2px solid black;
+}
+
+button {
+    display: inline;
+    background: inherit;
+    border: none;
+    font-size: 20px;
 }
 
 button.link {
@@ -111,3 +37,100 @@ button.link {
   border: 3px solid black;
   text-decoration: underline;
 }
+
+button.home {
+    margin-right: 15px;
+}
+
+button.proj {
+  font-size: 60px;
+  border: 5px solid black;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+}
+
+h.projectIntro {
+  font-size: 30px;
+}
+
+h.project {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+h.intro {
+  font-size: 30px;
+}
+
+h.email {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+ul.main {
+    display: inline-block;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: content-box;
+    padding: 3px 3px 0px 0px;
+    border-radius: 10px;
+}
+
+hr {
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr.project{
+  margin:30px 30px 0px 0px;
+}
+
+p.intro {
+  margin: 0 auto;
+  word-wrap: break-word;
+  width: 800px;
+  font-size: 20px;
+}
+
+p.projectBody {
+  margin: 0 auto;
+  word-wrap: break-word;
+  width: 800px;
+  font-size: 20px;
+}
+
+p.projectList {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  display: inline-block;
+}
+
+p.email {
+  font-size: 30px;
+}
+
+table, td {
+}
+
+table {
+  position: absolute;
+  top:100px;
+  bottom:20px;
+  width:80%;
+  height:100%;
+}
+
+td{
+  font-size: 30px;
+  margin: 50px 10px 50px 10px;
+}
+
