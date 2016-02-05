@@ -26,6 +26,7 @@ button {
     background: inherit;
     border: none;
     font-size: 20px;
+    transition: all 0.3s ease 0.05s;
 }
 
 button.link {
@@ -47,6 +48,12 @@ button.proj {
   border: 5px solid black;
   padding: 5px 10px 5px 10px;
   border-radius: 10px;
+}
+
+/*animations for buttons*/
+
+button:hover{
+  background-color: #95a5a6;
 }
 
 h.projectIntro {
