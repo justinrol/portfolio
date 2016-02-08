@@ -11,7 +11,7 @@ var app = express();
 var io = socket_io();
 app.io = io;
 
-var routes = require('./routes/index')(io);
+var routes = require('./routes/index')
 var users = require('./routes/users');
 var moment = require('moment');
 
@@ -71,9 +71,6 @@ app.use(function(err, req, res, next) {
   });
 });
 
-// socket.io events
-io.on("connection",function(socket){
-  console.log("A user connected");
-});
+
 
 module.exports = app;
