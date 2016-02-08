@@ -15,7 +15,7 @@ router.get('/projects',function(req,res){
 });
 
 router.get('/contact',function(req,res){
-  res.render('contact', {title: 'render'});
+  res.render('contact', {title: 'Contacts'});
 });
 
 router.get('/nodeJSprojects',function(req,res){
@@ -23,7 +23,7 @@ router.get('/nodeJSprojects',function(req,res){
 });
 
 router.get('/movie',function(req,res){
-  res.render('movie',{title: 'clips'});
+  res.render('movie',{title: 'Clips'});
 });
 
 module.exports = router;
