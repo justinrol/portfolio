@@ -11,23 +11,23 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/about',function(req,res){
-  res.render('about');
+  res.render('about', {title: 'About'});
 });
 
 router.get('/projects',function(req,res){
-  res.render('projects');
+  res.render('projects',{title: 'Projects'});
 });
 
 router.get('/contact',function(req,res){
-  res.render('contact');
+  res.render('contact', {title: 'Contacts'});
 });
 
 router.get('/nodeJSprojects',function(req,res){
-  res.render('nodeJSprojects');
+  res.render('nodeJSprojects', {title:'nodeJS Projects'});
 });
 
 router.get('/movie',function(req,res){
-  res.render('movie');
+  res.render('movie',{title: 'Clips'});
 });
 
 module.exports = router;
