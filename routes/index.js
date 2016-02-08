@@ -22,7 +22,7 @@ router.get('/contact',function(req,res){
   res.render('contact', {title: 'Contacts'});
 });
 
-router.get('/nodeJSprojects',function(req,res){
+router.get('/projects/nodeJS',function(req,res){
   res.render('nodeJSprojects', {title:'nodeJS Projects'});
 });
 
