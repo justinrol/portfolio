@@ -1,0 +1,36 @@
+{
+    "Inputs": {
+   "input1": {
+     "ColumnNames": [
+       "UserId",
+       "Gender",
+       "Age",
+       "Name_of_Meal",
+       "Name_of_Allergen",
+       "Feedback",
+       "Symptoms"
+     ],
+     "Values": [
+       [
+         "0",
+         "genderCode",
+         "myAge",
+         "myMeal",
+         "value",
+         "0",
+         "mySymptom"
+       ],
+       [
+         "0",
+         "genderCode",
+         "myAge",
+         "myMeal",
+         "value",
+         "0",
+         "mySymptom"
+       ]
+     ]
+   }
+ },
+ "GlobalParameters": {}
+}

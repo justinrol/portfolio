@@ -1,0 +1,33 @@
+extends ../../layout
+
+block content
+  div.form.tawesome
+    form(id="form1",action="/projects/hacakthons/tawesome/submitForm",method="post")
+      p.tawesome Name
+      input.tawesome(type="text",name="Name",id="input.name")
+      br
+      p.tawesome Age
+      input.tawesome(type="text",name="Age",id="input.age") 
+      br
+      div.tawesome
+        p.tawesome City
+        input.tawesome(type="text",name="residence",id="input.residence")
+      br
+      div.tawesome
+        p.tawesome Meal
+        input.tawesome(type="text",name="meal",id="input.meal")
+      br
+      div.tawesome
+        p.tawesome Gender
+        select.tawesome(name="genderSelect").items
+          each val in ['Male','Female']
+            option.tawesome(type="text",name="gender",id="select.gender") #{val}
+      br
+      div.tawesome
+        p.tawesome Symptom
+        select.tawesome(name="symptomSelect").items
+          each val in ['none','Upset Stomach','Dizziness','Headache','Nasal Congestion','Fatigue','Bloating']
+            option.tawesome(type="text",name="symptom",id="select.symptom") #{val}
+      Button.next(name="submit",type="submit") Submit
+  hr
+  script(src='javascripts/tawesome.js')

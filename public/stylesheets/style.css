@@ -128,9 +128,6 @@ p.email {
   font-size: 30px;
 }
 
-table, td {
-}
-
 table {
   position: absolute;
   top:100px;
@@ -148,4 +145,64 @@ iframe{
   margin: 10px 0px 10px 0px;
   padding: 3px;
   border: 5px solid black;
+}
+
+/*hackathon DSSC CSS*/
+
+div.form.tawesome {
+  border: 3px solid black;
+  display: inline-block;
+  border-bottom-right-radius: 15px;
+  padding: 10px 20px 10px 20px;
+}
+
+.tawesome {
+  font-size: 25px;
+}
+input.tawesome {
+  border: 3px solid black;
+  border-radius: 5px;
+}
+select.tawesome {
+  height: 200px;
+  width:200px;
+  font-size: 30px;
+}
+
+p.tawesome {
+  text-align: left;
+}
+div.tawesome {
+  width: 300px;
+  height: 100%;
+}
+
+.tawesomeResults{
+  font-size: 30px;
+}
+
+div.results {
+  font-size: 30px;
+  text-align: center;
+}
+div.tawesomeTable {
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+button.next {
+  border: 2px solid black;
+  padding: 5px 8px 5px 8px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+p.warn {
+  display: inline-block;
+  text-align: center;
+  border: 3px solid red;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
 }

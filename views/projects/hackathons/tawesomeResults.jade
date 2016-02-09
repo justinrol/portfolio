@@ -1,0 +1,11 @@
+extends ../../layout
+
+block content
+  div.results
+    h.tawesomeResults Welcome #{userName}!
+    p.tawesomeResults Here are the results:
+    p.warn Be warned of #{warn}
+    br
+    div.tawesomeTable
+      each val, index in information
+        p.tawesomeResult.item= information[index][1] + " at " + information[index][0] + "%"
