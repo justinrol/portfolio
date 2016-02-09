@@ -37,7 +37,7 @@ router.get('/movie',function(req,res){
   res.render('movie',{title: 'Clips'});
 });
 
-router.post('/projects/hacakthon/tawesome/submitForm',function(req,res){
+router.post('/projects/hacakthons/tawesome/submitForm',function(req,res){
   
   var uri= "https://europewest.services.azureml.net/workspaces/63194e97e2f8401b9ec065183ca28ef5/services/56fda0cfc9904f33957c65590cc69013/execute?api-version=2.0&details=true";
   
