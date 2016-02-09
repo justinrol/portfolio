@@ -21,15 +21,13 @@ router.get('/projects',function(req,res){
 router.get('/projects/:name',function(req,res){
   var name = req.params.name;
   console.log(`name: ${name}`);
-  res.render('projects/' + name,{title:name});
+  res.render('projects/' + name, {title:name});
 })
 
-router.get('/projects/hackathon/:name',function(req,res){
+router.get('/projects/hackathons/:name',function(req,res){
   var name = req.params.name;
-  res.render('projects/hackathon/' + name,{title:name});
-  console.log("tawesome");
-  console.log(name);
-})
+  res.render('projects/hackathons/' + name,{title:name});
+});
 
 router.get('/contact',function(req,res){
   res.render('contact', {title: 'Contacts'});
