@@ -1,12 +1,15 @@
 extends layout
 
 block content
-    h.intro ABOUT
-    p.intro I began to study computer science as I had huge interest in game development. After a while, as many other things were needed for a game, I began to dig into other fields such as Animaition (MAYA), Adobe After Effects(Movie Editing), Unity(Game Engine), NodeJS(Server), mySQL & mongoDB(Database). My goal is to develop an app(android platform), gather sufficient database / experience in database, and learn python to do a data-mining sort of activity. 
-    br
-    p.intro I'm interesed in finding any IT-career related jobs, especially with regrads to Server and Game dev. Frankly, I like most, if it's related to development and creations.
-    br
-    div.CV
-      p.cv CV
-      iframe.cv(src="https://docs.google.com/document/d/1h1Fc78jzJAX9qp4d1e7kfOOhOBIEWgdp60ZrKwQuscM/pub?embedded=true")
-    hr
+  div(class='about')
+    div(class='conatiner')
+      div(class='row')
+        div(class='col-md-6 col-md-offset-3')
+          div(class='p-about')
+            p.h-about ABOUT
+            p I began to study computer science as I had huge interest in game development. After a while, as many other things were needed for a game, I began to dig into other fields such as Animaition (MAYA), Adobe After Effects(Movie Editing), Unity(Game Engine), NodeJS(Server), mySQL & mongoDB(Database). My goal is to develop an app(android platform), gather sufficient database / experience in database, and learn python to do a data-mining sort of activity. 
+            p I'm interesed in finding any IT-career related jobs, especially with regrads to Server and Game dev. Frankly, I like most, if it's related to development and creations.
+      div(class='row')
+        div(class='col-md-8 col-md-offset-2 CV')
+          iframe.cv(src="https://docs.google.com/document/d/1h1Fc78jzJAX9qp4d1e7kfOOhOBIEWgdp60ZrKwQuscM/pub?embedded=true")
+      

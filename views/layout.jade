@@ -2,19 +2,26 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
     link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Lato')
+    link(rel='stylesheet', href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js')
+    script(src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js')
+    script(src='/jquery/tooltip.js')
+    link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    ul.main
-        a(href='http://justinproj.com/')
-          button.main Home
-        a(href='http://justinproj.com/about')
-          button.main About
-        a(href='http://justinproj.com/projects')  
-          button.main Projects
-        a(href='http://justinproj.com/contact')
-          button.main(type="submit", onclick="contactGET()") Contact
-    hr
-    block content
-    
-    script(src="/javascripts/browsing.js")
+    div
+      nav(class='navbar navbar-default')
+        div(class='collapse navbar-collapse')
+          ul(class='nav navbar-nav center')
+            div(class='btn-group pull-left btn-group-lg')
+              a(href='http://localhost:3000/',class='btn btn-default nav navbar-nav nav-btn',role='button')
+                span(class='glyphicon glyphicon-home white-glyp')
+              a(href='http://localhost:3000/about',class='btn btn-default nav navbar-nav nav-btn',role='button')
+                span(class=' glyphicon glyphicon-user white-glyp') About
+              a(href='http://localhost:3000/projects',class='btn btn-default nav navbar-nav nav-btn',role='button')
+                span(class='glyphicon glyphicon-book white-glyp') Projects
+              a(href='http://localhost:3000/contact',class='btn btn-default nav navbar-nav nav-btn',role='button')
+                span(class='glyphicon glyphicon-earphone white-glyp') Contact
+  block content
+  script(src='/javascripts/browsing.js')
+ 

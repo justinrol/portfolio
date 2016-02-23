@@ -1,156 +1,175 @@
 iframe.cv{
   width: 700px;
   height: 700px;
+  border-radius: 10px;
+  
 }
 
 body{
-  text-align: center;
+  color: #ecf0f1;
   font-family: 'Lato',sans-serif;
+  background-color: #22313F;
+}
+
+
+.white-glyp{
+  color: #2c3e50;
+}
+
+.img {
+  width:100%;
+}
+
+/*navigations*/
+
+.nav-btn:hover {
+  background: #95a5a6;
+}
+
+.nav-btn:hover .white-glyp {
+  color: #ecf0f1;
+}
+
+.btn-group{
+  border: none;
+}
+
+.navbar-default {
+  background: #22313F;
+  border: none;
+}
+
+.navbar{
+  margin-left: -15px;
+}
+
+/*carousels*/
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.carousel{
+  height: 650px;
+  width: 650px;
+  margin: 0 auto;
+}
+
+
+/*Introduction paragraph in the homepage*/
+.introduction{
+  margin-top: 70px;
+  font-size: 40px;
+  text-align: center;
+}
+
+img.desc {
+  width: 100%;
+  text-align: left;
+  padding: 12px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+p.desc{
+  padding: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  color: #2c3e50;
+  font-size: 25px;
+  text-align: center; 
+  height: 100%;
+}
+
+.table {
+  display: table;
+}
+
+.desc {
+  border: 10px solid #f39c12;
+  border-radius: 10px;
   background-color: #ecf0f1;
 }
 
-img{
-    display: block;
-    width: 500px;
-    height: 500px;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-}
+/*About Page*/
 
-img.facebook {
-  margin-top: 5px;
-  padding: 3px;
-  border: 2px solid black;
-}
-
-button {
-    display: inline;
-    background: inherit;
-    border: none;
-    font-size: 20px;
-    transition: all 0.3s ease 0.05s;
-}
-
-button.link {
-  margin-top: 5px;
-  border-radius: 5px;
-  background-color: #2c3e50;
-  color: white;
-  padding 2px;
-  border: 3px solid black;
-  text-decoration: underline;
-}
-
-button.home {
-    margin-right: 15px;
-}
-
-button.proj {
-  font-size: 60px;
-  border: 5px solid black;
-  padding: 5px 10px 5px 10px;
-  border-radius: 10px;
-}
-
-/*animations for buttons*/
-
-button:hover{
-  background-color: #95a5a6;
-}
-
-h.projectIntro {
-  font-size: 30px;
-}
-
-h.project {
-  font-size: 25px;
-  text-decoration: underline;
-}
-
-h.intro {
-  font-size: 30px;
-}
-
-h.email {
-  font-size: 30px;
-  text-decoration: underline;
-}
-
-ul.main {
-    display: inline-block;
-    border-width: 4px;
-    border-color: black;
-    border-style: solid;
-    box-sizing: content-box;
-    padding: 3px 3px 0px 0px;
-    border-radius: 10px;
-}
-
-hr {
-    border-radius: 20px;
-    border-width: 3px;
-    border-color: black;
-}
-
-a {
-  text-decoration: none;
-}
-
-hr.project{
-  margin:30px 30px 0px 0px;
-}
-
-p.intro {
-  margin: 0 auto;
-  word-wrap: break-word;
-  width: 800px;
+.about {
   font-size: 20px;
+  color: #2c3e50;
+  text-align: center;
 }
 
-p.projectBody {
-  margin: 0 auto;
-  word-wrap: break-word;
-  width: 800px;
-  font-size: 20px;
-}
-
-p.projectList {
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
-  border-radius: 10px;
-  padding: 5px 10px 5px 10px;
+.p-about {
   display: inline-block;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 20px;
 }
 
-p.email {
+.h-about {
   font-size: 30px;
 }
 
-table {
-  position: absolute;
-  top:100px;
-  bottom:20px;
-  width:80%;
-  height:100%;
+/*contact*/
+
+.email {
+  vertical-align: middle;
+  font-size: 25px;
+  text-align: center;
+  background-color: #95a5a6;
+  border-radius: 10px;
+  padding: 5px 0 5px 0;
+  border: 3px solid #ecf0f1;
+  vertical-align: middle;
 }
 
-td{
+.facebook {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+/*projects*/
+
+.container-project{
+  text-align: center;
+}
+
+.project{
+  text-align: left;
+  display: inline-block;
+  border: 4px solid #f39c12;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+  margin-bottom: 10px;
+  width: 600px;
+}
+
+.h-project{
   font-size: 30px;
-  margin: 50px 10px 50px 10px;
 }
 
-iframe{
-  margin: 10px 0px 10px 0px;
-  padding: 3px;
-  border: 5px solid black;
+.dropdown-project{
+  margin-bottom: 15px;
+  color: #2c3e50;
+  font-size: 20px;
 }
+
+.p-project{
+  color: #ecf0f1;
+  font-size: 20px;
+}
+
+.link-btn{
+  margin-top: -16px;
+}
+
 
 /*hackathon DSSC CSS*/
 
 div.form.tawesome {
-  border: 3px solid black;
+  border: 3px solid #f39c12;
   display: inline-block;
   border-bottom-right-radius: 15px;
   padding: 10px 20px 10px 20px;
@@ -160,8 +179,9 @@ div.form.tawesome {
   font-size: 25px;
 }
 input.tawesome {
-  border: 3px solid black;
+  border: 3px solid #f39c12;
   border-radius: 5px;
+  color: #2c3e50;
 }
 select.tawesome {
   height: 200px;
@@ -173,7 +193,7 @@ p.tawesome {
   text-align: left;
 }
 div.tawesome {
-  width: 300px;
+  width: 400px;
   height: 100%;
 }
 
@@ -188,8 +208,10 @@ div.results {
 div.tawesomeTable {
   display: inline-block;
   padding: 10px 20px 10px 20px;
-  border: 3px solid black;
+  border: 3px solid #f39c12;
   border-radius: 10px;
+  background-color: #ecf0f1;
+  color: #2c3e50;
 }
 
 button.next {
